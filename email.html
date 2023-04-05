@@ -5,7 +5,7 @@
         <h2>email address</h2>
         <form name="form1" action="#">
             <input type="text" name="text1" id="email" />
-            <input type="submit" id="submit" name="validate" value="Validate" onclick="isValid(document.form1.text1.value)">
+            <input type="submit" id="submit" name="validate" value="Validate" onclick="isValid(document.form1.text1.value,'required|email')">
         </form>
     </div>
     <script src="../utils/index.js"></script>
