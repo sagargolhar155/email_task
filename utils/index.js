@@ -5,9 +5,9 @@ const passwordRegex = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,24}$/;
 
 const da = {
   name: "sagar golhar",
-  mobile: "ygtgfy",
-  email: "sagargolhar46gmail.com",
-  password: "Sg133155@!"
+  mobile: "7798894751",
+  email: "sagargolhar46@gmail.com",
+  password: "Sg133155@"
 };
 const err = {
   name: "required|name",
@@ -51,10 +51,5 @@ function check(val, input) {
   }
 }
 
-// const submitBtn = document.getElementById("submit");
-// (function () {
-//     submitBtn.addEventListener('click', (event) => {
-//         event.preventDefault();
-//     })
-// }())
+
 
